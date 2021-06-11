@@ -72,5 +72,5 @@ client.connect(err => {
 
 
 app.listen(port, () => {
-  console.log(`hey i am ok and running on port:${process.env.PORT || port}`)
+  console.log(process.env.PORT || port)
 })
